@@ -1,0 +1,43 @@
+# Maven
+target/
+*.jar
+*.war
+*.ear
+*.class
+
+# IDE specific files
+/.idea/
+/*.iml
+/.classpath
+/.project
+/.settings/
+*.swp
+*.swo
+*.swn
+
+# Log files
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Eclipse and IntelliJ project files
+/.settings/
+/bin/
+/build/
+
+# User-specific files
+*.user
+
+# Other files to ignore
+*.h2.db
+*.sql
+*.properties
+*.tmp
+
+# Ignore sensitive configuration files
+/spring-servlet.xml
+
+# Ignore the .project file in the productapp directory
+.project
